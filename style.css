@@ -66,3 +66,92 @@
   border-radius: 15px;
   color: white;
 }
+
+#Sections {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.setCard {
+  width: 220px;
+  height: 220px;
+  padding: 30px;
+  border: none;
+  text-align: center;
+  background-color: #eaffea;
+  border-radius: 10px;
+}
+.setCard2 {
+  border-radius: 5px;
+  box-shadow: 3px 2px 10px gray;
+}
+.setCard3 {
+  background-color: white;
+  box-shadow: none;
+}
+
+/* Online Courses */
+
+.online {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  position: relative;
+  padding: 10px;
+}
+/* .online::after {
+  content: "";
+  position: absolute;
+  background-color: #00c96e;
+  height: 4px;
+  bottom: 0;
+  left: 440px;
+  width: 242px;
+  border-radius: 10px;
+} */
+
+.courseCard {
+  flex-basis: 320px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px rgb(204, 204, 204);
+}
+
+.cardFooter {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.fa-solid {
+  margin-right: 5px;
+}
+
+.card-btn {
+  border: none;
+  padding: 7px 15px;
+  background-color: #21b573;
+  border-radius: 15px;
+  color: white;
+}
+.card-btn:hover {
+  color: black;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 100px;
+  background-color: #282531;
+  color: white;
+  height: 380px;
+}
+.div {
+  padding: 70px 10px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
